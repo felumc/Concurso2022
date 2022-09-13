@@ -1,0 +1,194 @@
+*{
+    margin: 0 auto;
+    box-sizing: border-box;
+    padding: 0;
+    font-family: monsterrat;
+    font-size: 20px;
+}  
+body{
+   background-image: url("../Images/background.png");
+   background-size: 2000px;
+    background-color: rgb(0, 0, 0);
+}
+.header{
+  background: linear-gradient(30deg, rgb(19, 19, 19) 0%, rgb(33, 33, 33) 35%);
+  height: 65px;
+  width: 100%;
+  overflow: hidden;
+}
+.header .logo{
+  margin: 15px;
+  float: left;
+  margin-left: 1%;
+}
+.header .nav-links{
+  margin: 10px;
+  margin-top: 6px;
+  float: right;
+  margin-right: 2%;
+  display: flex;
+  align-items: center;
+}
+.div-sidevar{
+  background: linear-gradient(30deg, rgb(19, 19, 19) 0%, rgba(33, 33, 33, 0.134) 35%);
+  width: 60px;
+  height: 100%;
+  float: left;
+  top: -3000px;
+  left: 0;
+  position: fixed;
+  display: flex;
+  align-items: flex-end;
+  transition: 1.5s;
+}
+.header .logo img{
+  height: 35px;
+  width: auto;
+  transition: 1.5s;
+  z-index: 1;
+}
+
+.header .logo img:hover{
+  transform: scale(1.05);
+}
+.logo:hover > .div-sidevar{
+  top: 0px;
+}
+.header .nav-links{
+  list-style: none;
+}
+.header .nav-links li{
+  display: inline-block;
+  
+}
+.header .nav-links a{
+  font-size: 12px;
+  color: aliceblue;
+  text-decoration: none;
+  font-family: montserrat regular;
+  margin-left: 15px;
+}
+.header .nav-links .a-active{
+  color: #E8B212;
+}
+.header .nav-links a:hover{
+  border-bottom: 1px solid #E8B212;
+}
+.div-icons{
+  display: flex;
+  flex-direction:column;
+  align-items:center;
+  margin-bottom: 20px;
+}
+.div-sidevar i{
+  margin: 10px;
+  font-size: 20px;
+  color: rgb(255, 255, 255);
+}
+.material-icons.md-18 { 
+  font-size: 30px; 
+ position: relative;
+ margin-top: 10px; 
+}
+article{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 50px;
+}
+.Titulo{
+  text-decoration: none;
+  font-size: 28px;
+  color: white;
+  font-family: montserrat SemiBold;
+}
+.i3{
+  margin: 13px;
+}
+.contenedorMarketingDigitalPNG{
+  width: 70%;
+  overflow: hidden;
+}
+#MarketingDigitalPNG{
+  width: 100%;
+  height: auto
+}
+.Link{
+  font-family: montserrat light;
+}
+.Link:hover{
+  border-bottom: #E8B212 2px solid;
+}
+.textConainer{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: center;
+  margin-top: 30px;
+  box-sizing:content-box;
+}
+.cajaTexto{
+  width: 270px;
+  height: 20 0px;
+  margin: 30px;
+}
+
+.textoSimple{
+  font-family: montserrat;
+  font-size: 18px;
+  color: white;
+}
+.texto_separador{
+  display: blo;
+  background-color: #E8B212;
+  width: 90px;
+  height: 2px;
+  margin-block: 5px;
+  float: left;
+}
+.cajaTexto-active{
+  width: 300px;
+}
+.deslizar{
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+.deslizarIcon{
+  color: aliceblue;
+  font-size: 40px;
+}
+.div-article{
+  margin-top: 85px;
+}
+.TituloPag{
+  font-size: 80PX;
+  text-align: center;
+  color: white;
+  display: inline-block;
+  font-family: montserrat;
+}
+.TPActive{
+  color: #E8B212;
+}
+.hipervinculoBlanco:hover{
+  border-bottom: 2px solid white;
+}
+.white{
+  color: white;
+}
+.font{
+  font-family: montserrat;
+}
+.cajaTextoAmplio{
+  text-align: center;
+  width: 75%;
+  margin-bottom: 50px;
+}
+.centrado{
+  text-align: center;
+}
+.LinkHover:hover{
+  color: #E8B212;
+}
