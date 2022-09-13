@@ -6,12 +6,11 @@
     font-size: 20px;
 }  
 body{
-   background-image: url("../Images/background.png");
-   background-size: 2000px;
+    background-size: 2000px;
     background-color: #F7F6DC;
 }
 .header{
-  background: linear-gradient(30deg, rgb(19, 19, 19) 0%, rgb(33, 33, 33) 35%);
+  background: linear-gradient(1000deg, #7FB77E 0%, #B1D7B4 60%);
   height: 65px;
   width: 100%;
   overflow: hidden;
@@ -99,7 +98,7 @@ article{
 .Titulo{
   text-decoration: none;
   font-size: 28px;
-  color: white;
+  color: rgb(0, 0, 0);
   font-family: montserrat SemiBold;
 }
 .i3{
@@ -165,7 +164,7 @@ article{
 .TituloPag{
   font-size: 80PX;
   text-align: center;
-  color: white;
+  color: rgb(0, 0, 0);
   display: inline-block;
   font-family: montserrat;
 }

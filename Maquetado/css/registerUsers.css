@@ -9,7 +9,7 @@
     width: 450px;
     height: 450px;
     border-radius: 30px;
-    background-color: #B1D7B4;
+    background-color: #7FB77E;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -27,13 +27,13 @@
 }
 .white{
     text-decoration: none;
-    color: rgb(0, 0, 0);
+    color: white;
 }
 .font{
     font-family: montserrat regular;
 }
 button{
-    background: #7FB77E;
+    background: #E8B212;
     padding: 10px;
     padding-inline: 40px;
     border: none;
