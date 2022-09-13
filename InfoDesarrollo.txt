@@ -1,0 +1,14 @@
+Sintaxis nombreDeLaVariable
+
+Paleta de colores:
+    7FB77E Verde
+    B1D7B4 Verde Claro
+    F7F6DC Crema
+    FFC090 Naranja
+
+Paginas:
+    Inicio
+    Login y Resgitro
+        Users
+        Asociaciones
+    

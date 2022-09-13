@@ -8,7 +8,7 @@
 body{
    background-image: url("../Images/background.png");
    background-size: 2000px;
-    background-color: rgb(0, 0, 0);
+    background-color: #F7F6DC;
 }
 .header{
   background: linear-gradient(30deg, rgb(19, 19, 19) 0%, rgb(33, 33, 33) 35%);

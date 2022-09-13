@@ -1,0 +1,49 @@
+.mainWrapper{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    position: fixed;
+    align-items: center;
+}
+.CuadroLogin{
+    width: 450px;
+    height: 450px;
+    border-radius: 30px;
+    background-color: rgb(31, 31, 31);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.CuadroLogin img{
+    width: 90px;
+    margin: 30px;
+    
+}
+.input{
+    padding-inline: 45px;
+    padding-block: 15px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+}
+.white{
+    text-decoration: none;
+    color: white;
+}
+.font{
+    font-family: montserrat regular;
+}
+button{
+    background: #E8B212;
+    padding: 10px;
+    padding-inline: 40px;
+    border: none;
+    border-radius: 15px;
+    margin-top: 6%;
+}
+.recordar{
+    font-size: 16px;
+}
+.RecoverPass{
+    font-size: 12px;
+    margin-top: 10px;
+}
