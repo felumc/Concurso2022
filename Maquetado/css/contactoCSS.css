@@ -1,0 +1,45 @@
+.TituloContacto{
+    color: white;
+    font-size: 45px;
+    font-family: montserrat black;
+}
+.div-icons2{
+    display: flex;
+    align-items:center;
+    margin-bottom: 20px;
+  }
+.contactIcon{
+    margin: 20px;
+    font-size: 40px;
+    color: white;
+}
+.header{
+    background: none;
+}
+.contactContainer{
+    width: 70%;
+    background-color: red;
+    height: fit-content;
+    padding: 20px;
+    display: flex;
+}
+.CajaContactos{
+    background-color: aqua;
+    width:fit-content;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+.CajaFormulario{
+    background-color: #22B;
+    width:fit-content;
+    padding: 20px;
+}
+.inputContacto{
+    padding-inline: 30px;
+    background-color: none;
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    border-bottom: 2px solid red;
+    color: white;
+    font-family: montserrat;
+}
