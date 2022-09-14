@@ -9,8 +9,8 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons"rel="stylesheet">
     <script src="https://kit.fontawesome.com/c597ca9b0c.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
-    
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+    <link rel="icon" href="Images/icon.ico">
 </head>
 <body >
   <div class="main-wrapper">
@@ -20,7 +20,7 @@
         <header class="header">
 
           <div class="logo">
-              <a href="index.html"><img src="images/LogoG.png" alt="Logo Grande"></a>
+              <a href="index.html"><img src="Images/LogoG.png" alt="Logo Grande"></a>
               <div class="div-sidevar" id="sidebar">
                 <div class="div-icons">
                   <a href="#"><i class="fa-brands fa-instagram"></i></a>
@@ -33,11 +33,9 @@
           <nav>
             <ul class="nav-links">
               <li><a href="#" class="a-active">Inicio</a></li>
-              <li><a href="servicios.html">Servicios</a></li>
-              <li><a href="nosotros.html">Nosotros</a></li>
-              <li><a href="mapa.html">Repositorio</a></li>
+              <li><a href="loginUsers.html">Donar</a></li>
+              <li><a href="loginAsociaciones.html">Solicitar Ayuda</a></li>
               <li><a href="contacto.html">Contacto</a></li>
-              <li><a href="login.html"><span class="material-icons md-18">face</span></a></li>
             </ul>
           </nav>
 
@@ -47,57 +45,46 @@
 
     <div class="div-article">
       <article>
-        <h3 class="Titulo i3 centrado" style="color: rgb(0, 0, 0);">Tienes</h3>
+        <h3 class="Titulo i3 centrado" style="color: rgb(0, 0, 0);">Tienes artículos que quieres donar?</h3>
         <h1 class="TituloPag">Compartiendo <span class="TituloPag TPActive">los bienes</span></h1>
-        <h3 class="Titulo i3" style="color: rgb(0, 0, 0);"><a class="Titulo Link" href="#">Ayuda a los demás ahora</a></h3>
+        <h3 class="Titulo i3" style="color: rgb(0, 0, 0);"><a class="Titulo Link" href="loginUsers.html">Ayuda a los demás ahora</a></h3>
       </article>
     </div>
 
     <div class="textConainer">
-      <div class="cajaTexto">
+      <div class="cajaTextoAmplio">
         <div class="texto">
-          <h3 class="Titulo">CALIDAD</h3>
-          <div class="texto_separador"></div><br>
-          <p class="textoSimple">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique 
-            expedita maiores, quod omnis nesciunt provident debitis asperiores 
-            sequi delectus.
+          <p class="font centrado" style="font-size: 17px;">
+            Todos en algún momento tenemos bienes que no utilizamos y que pueden llegar a ser de gran ayuda para otras personas, estos bienes pueden ser: alimentos, ropa, enseres del hogar, electrodomésticos. <br> <br>
+            En WeShare ayudamos a conectar a personas con ganas de ayudar con asociacioes dedicadas al apoyo mutuo. Agradecemos tu interés en ser parte de nuestra comunidad de Donantes.  <br> <br>
+            Regístrate como usuario para realizar donaciones o como asociación para solicitarlas.
           </p>
         </div>
       </div>
-
-      <div class="cajaTexto">
-        <div class="texto">
-          <h3 class="Titulo">CRECIMEINTO</h3>
-          <div class="texto_separador"></div><br>
-          <p class="textoSimple">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique 
-            expedita maiores, quod omnis nesciunt provident debitis asperiores 
-            sequi delectus.
-          </p>
-        </div>
-      </div>
-
-      <div class="cajaTexto cajaTexto-active">
-        <div class="texto">
-          <h3 class="Titulo ">PERSONALIZACIÓN</h3>
-          <div class="texto_separador"></div><br>
-          <p class="textoSimple">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique 
-            expedita maiores, quod omnis nesciunt provident debitis asperiores 
-            sequi delectus.
-          </p>
-        </div>
-      </div> 
-
     </div>
+
+    <div class="textConainer">
+      <div class="botones">
+      <button onclick="location.href='loginAsociaciones.html'"> Solicitar <br> Ayuda </button>
+      <button onclick="location.href='loginUsers.html'"> Empezar a <br> ayudar </button>
+      </div>      
+    </div>
+    
 
     <div class="deslizar">
       <span  class="material-symbols-outlined deslizarIcon">keyboard_double_arrow_down</span>
     </div>
     
-    
-  </div> 
+    <center>
+      <img src="images/LogoGigante.png" style="height:90px;"> <br>
+    </center>
+  </div> <br> 
+
+
+  <!--     -->
+
+
+  <!--   -->
 
 </body>
 </html>

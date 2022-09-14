@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <title>Solicitud</title>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link href="css/indexCSS.css" rel="stylesheet" >
+    <script src='main.js'></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"rel="stylesheet">
+    <script src="https://kit.fontawesome.com/c597ca9b0c.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+    <link rel="stylesheet" href="css/CrearRequest.css">
+    <link rel="icon" href="Images/icon.ico">
+</head>
+<body >
+  <div class="main-wrapper">
+
+    <div class="div-header">
+
+        <header class="header">
+
+          <div class="logo">
+              <a href="index.html"><img src="Images/LogoG.png" alt="Logo Grande"></a>
+              <div class="div-sidevar" id="sidebar">
+                <div class="div-icons">
+                  <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                  <a href="#"><i class="fa-brands fa-square-facebook"></i></a>
+                  <a href="#"><i class="fa-regular fa-envelope"></i></a>
+                </div>
+              </div>
+          </div>
+
+          <nav>
+            <ul class="nav-links">
+              <li><a href="#" >Solicitar Donacion</a></li>
+              <li><a href="verSolicitudes.html" class="a-active">Ver Solicitudes</a></li>
+              <li><a href="perfilAsociacion.html"><span class="material-icons md-18">face</span></a></li>
+            </ul>
+          </nav>
+
+        </header>
+
+    </div>
+
+    <div class="CuadroLogin">
+      <div class="contenido">
+        <h3>Crear solicitud</h3> <br>
+        <form action="servicios.html">
+              <p>Nombre del objeto a solicitar:</p> 
+              <input class="input fondo" type="text" id="NombreObj" placeholder="Nombre del objeto"> <br>
+
+              <p>Número de objetos a solicitar:</p>              
+              <input  class="input fondo" type="number" name="" id="numeroObjetos" placeholder="Número"> <br> <br>
+            
+            
+
+
+              Descripción: <br>
+              <textarea class="input" name="descripcion" id="descripcion" cols="30" rows="10"></textarea> <br>
+              <label for="img">Subir imagen:</label>
+              <input type="file" id="img" name="img" accept="image/*"> <br>
+              <input class="boton" type="button" onclick="location.href='verSolicitudes.html'" value="Subir">
+        </form>
+      </div>        
+    </div> <br> 
+    
+    
+  </div> 
+
+  <script src="js/solicitudes.js"></script>
+</body>
+</html>

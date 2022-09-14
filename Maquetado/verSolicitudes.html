@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <title>Inicio</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link href="css/indexCSS.css" rel="stylesheet" >
+    <script src='main.js'></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"rel="stylesheet">
+    <script src="https://kit.fontawesome.com/c597ca9b0c.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="stylesheet" href="css/servicios.css">
+    <link rel="stylesheet" href="css/loginUsers.css">
+    <link rel="icon" href="Images/icon.ico">
+</head>
+<body >
+  <div class="main-wrapper">
+
+    <div class="div-header">
+
+        <header class="header">
+
+          <div class="logo">
+            <a href="index.html"><img src="Images/LogoG.png" alt="Logo Grande"></a>
+              <div class="div-sidevar" id="sidebar">
+                <div class="div-icons">
+                  <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                  <a href="#"><i class="fa-brands fa-square-facebook"></i></a>
+                  <a href=""><i class="fa-regular fa-envelope"></i></a>
+                </div>
+              </div>
+          </div>
+
+          <nav>
+            <ul class="nav-links">
+              <li><a href="index.html">Inicio</a></li>
+              <li><a href="crearPedAsocioacion.html" class="a-active">Solicitar Donacion</a></li>
+
+              <li><a href="verSolicitudes.html" class="a-active">Ver Solicitudes</a></li>
+              <li><a href="perfilAsociacion.html"><span class="material-icons md-18">face</span></a></li>
+            </ul>
+          </nav>
+
+        </header>
+
+    </div>
+
+    <div class="div-article">
+      <article>
+        <h1 >Mis<span style="color: #7FB77E;">  Pedidos de donación</span></h1>
+        <h3 class="Titulo i3" style="color: gray">Asociación Hermanos</h3>
+      </article>
+      
+      <div class="tablas" id="tabla1" style="display: visible;">
+        <div class="TablaHeader">
+          <h2 class="TituloTabla" style="text-align: center;">10 Playeras</h2>
+          
+        </div>
+        
+        <div class="contenidoTabla" style="text-align: left;">
+          
+          <p>Fecha de publicacion: 12/03/2022</p>
+          <p>Status: 3 donadas</p>
+          
+        </div>
+        <button onclick="ocultar(1)">Cerrar Donacion</button>
+      </div>
+      <br>
+      <div class="tablas" id="tabla2" style="display: visible;">
+        <div class="TablaHeader">
+          <h2 class="TituloTabla" style="text-align: center;">Latas de atún</h2>
+          
+        </div>
+        
+        <div class="contenidoTabla" style="text-align: left;">
+          
+          <p>Fecha de publicacion: 09/03/2022</p>
+          <p>Status: 9 donadas</p>
+          
+        </div>
+        <button onclick="ocultar(2)">Cerrar Donacion</button>
+      </div>
+      <br>
+    </div> 
+  </div>  
+<script>
+  function ocultar(num){
+    if(num==1){
+      document.getElementById('tabla1').style = 'display: none;';
+    }else{
+      document.getElementById('tabla2').style = 'display: none;';
+    }
+    
+  }
+</script>
+</body>
+</html>

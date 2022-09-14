@@ -7,9 +7,9 @@
 }
 .CuadroLogin{
     width: 450px;
-    height: 450px;
+    height: 550px;
     border-radius: 30px;
-    background-color: #7FB77E;
+    background-color: #B1D7B4;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -33,7 +33,7 @@
     font-family: montserrat regular;
 }
 button{
-    background: #E8B212;
+    background: #7FB77E;
     padding: 10px;
     padding-inline: 40px;
     border: none;

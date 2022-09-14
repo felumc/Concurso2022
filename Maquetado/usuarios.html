@@ -4,30 +4,65 @@
   <meta charset="UTF-8">
   <title>Usuarios</title>
   <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
-<link rel="stylesheet" href="./css/Estilo_Crud.css">
-
+  <link rel="stylesheet" href="./css/Estilo_Crud.css">
+  <link rel="icon" href="Images/icon.ico">
 </head>
 <body>
+  <div class="div-header">
 
+    <header class="header">
 
-  
+      <div class="logo">
+          <a href="index.html"><img src="Images/LogoG.png" alt="Logo Grande"></a>
+          <div class="div-sidevar" id="sidebar">
+            <div class="div-icons">
+              <a href="#"><i class="fa-brands fa-instagram"></i></a>
+              <a href="#"><i class="fa-brands fa-square-facebook"></i></a>
+              <a href="#"><i class="fa-regular fa-envelope"></i></a>
+            </div>
+          </div>
+      </div>
+
+      <nav>
+        <ul class="nav-links">
+          <li><a href="index.html" class="a-active">Inicio</a></li>
+          <li><a href="servicios.html">Servicios</a></li>
+          <li><a href="nosotros.html">Nosotros</a></li>
+          <li><a href="mapa.html">Mapa</a></li>
+          <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+      </nav>
+
+    </header>
+
+</div>
+
 
 <div class="container">
   <h1>Bienvenido Eduardo</h1>
+  <br>
+  <div class="round-image">
+  </div>
+  <br>
+
   <ul class="responsive-table">
     <li class="table-header">
-      <div class="col col-1">#</div>
-      <div class="col col-2">Nombre</div>
-      <div class="col col-3">Requerimiento</div>
-      <div class="col col-4">Acciones</div>
+      Mis donaciones
     </li>
     <li class="table-row">
-      <div class="col col-1" data-label="Job Id"><div class="round-image"></div></div>
+      
+        
+
+      <div class="col col-1" data-label="Job Id">
+        
+          <input id="image" type="image" width="30px" height="30px" 
+       src='https://us.123rf.com/450wm/martialred/martialred1608/martialred160800018/6126'>
+        </div>
       <div class="col col-2" data-label="Customer Name">Asociación Angeles</div>
-      <div class="col col-3" data-label="Amount">10 playeras</div>
+      <div class="col col-3" data-label="Amount">Playeras</div>
+      <div class="col col-3" data-label="Amount">10</div>
       <div class="col col-4" data-label="Payment Status">
-        <button>Donar</button>
-        <button>Pendiente</button>
+        <button onclick="Donar()" style="font-size: 15px;">Donar</button>
       </div>
     </li>
   </ul>
@@ -35,5 +70,7 @@
 
   
 <script src="Crud_Data_Base.js"></script>
+<script src="js/usuarios.js"></script>
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 </body>
 </html>

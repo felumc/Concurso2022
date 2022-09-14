@@ -1,16 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500&display=swap");
+
 *{
+    font-family: "Poppins", sans-serif; /*Estilo de font*/
     margin: 0 auto;
     box-sizing: border-box;
     padding: 0;
-    font-family: monsterrat;
     font-size: 20px;
 }  
 body{
-    background-size: 2000px;
+  background-size: 2000px;
     background-color: #F7F6DC;
 }
+
+
+/*Header*/
 .header{
-  background: linear-gradient(1000deg, #7FB77E 0%, #B1D7B4 60%);
+  background: linear-gradient(40deg, #7FB77E 0%, #B1D7B4 60%);
   height: 65px;
   width: 100%;
   overflow: hidden;
@@ -29,7 +34,7 @@ body{
   align-items: center;
 }
 .div-sidevar{
-  background: linear-gradient(30deg, rgb(19, 19, 19) 0%, rgba(33, 33, 33, 0.134) 35%);
+  background: linear-gradient(30deg, #FFC090 0%, rgba(247, 246, 220, 0.041) 35%);
   width: 60px;
   height: 100%;
   float: left;
@@ -58,20 +63,20 @@ body{
 }
 .header .nav-links li{
   display: inline-block;
-  
+  margin-top: 10px;
 }
 .header .nav-links a{
-  font-size: 12px;
-  color: aliceblue;
+  font-size: 15px;
+  color: #fdf4ed;
   text-decoration: none;
-  font-family: montserrat regular;
+  font-family: "Poppins", regular; /*Estilo de font*/
   margin-left: 15px;
 }
 .header .nav-links .a-active{
-  color: #E8B212;
+  color: #567955;
 }
 .header .nav-links a:hover{
-  border-bottom: 1px solid #E8B212;
+  border-bottom: 1px solid #7FB77E;
 }
 .div-icons{
   display: flex;
@@ -82,13 +87,16 @@ body{
 .div-sidevar i{
   margin: 10px;
   font-size: 20px;
-  color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
 }
 .material-icons.md-18 { 
   font-size: 30px; 
  position: relative;
  margin-top: 10px; 
 }
+/*Header*/
+
+
 article{
   display: flex;
   align-items: center;
@@ -99,7 +107,7 @@ article{
   text-decoration: none;
   font-size: 28px;
   color: rgb(0, 0, 0);
-  font-family: montserrat SemiBold;
+  font-family: "Poppins",  SemiBold;
 }
 .i3{
   margin: 13px;
@@ -113,10 +121,10 @@ article{
   height: auto
 }
 .Link{
-  font-family: montserrat light;
+  font-family: "Poppins",  light;
 }
 .Link:hover{
-  border-bottom: #E8B212 2px solid;
+  border-bottom: #7FB77E 2px solid;
 }
 .textConainer{
   display: flex;
@@ -124,7 +132,7 @@ article{
   flex-wrap: wrap;
   width: 100%;
   justify-content: center;
-  margin-top: 30px;
+  margin-top: 20px;
   box-sizing:content-box;
 }
 .cajaTexto{
@@ -134,13 +142,12 @@ article{
 }
 
 .textoSimple{
-  font-family: montserrat;
   font-size: 18px;
-  color: white;
+  color: rgb(0, 0, 0);
 }
 .texto_separador{
   display: blo;
-  background-color: #E8B212;
+  background-color: #7FB77E;
   width: 90px;
   height: 2px;
   margin-block: 5px;
@@ -159,17 +166,17 @@ article{
   font-size: 40px;
 }
 .div-article{
-  margin-top: 85px;
+
+  margin-top: 15px;
 }
 .TituloPag{
   font-size: 80PX;
   text-align: center;
   color: rgb(0, 0, 0);
   display: inline-block;
-  font-family: montserrat;
 }
 .TPActive{
-  color: #E8B212;
+  color: #7FB77E;
 }
 .hipervinculoBlanco:hover{
   border-bottom: 2px solid white;
@@ -178,7 +185,8 @@ article{
   color: white;
 }
 .font{
-  font-family: montserrat;
+  font-family: "Poppins"; /*Estilo de font*/
+
 }
 .cajaTextoAmplio{
   text-align: center;
@@ -189,5 +197,44 @@ article{
   text-align: center;
 }
 .LinkHover:hover{
-  color: #E8B212;
+  color: #7FB77E;
 }
+.centrado{
+  text-align: center;
+}
+
+.TituloTabla{
+	text-align: left;
+}
+
+/*Botones donar*/
+.botones{
+  margin-top: -70px;
+  width: 80%;
+  padding: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+}
+.botones button{
+  background: linear-gradient(30deg, #7FB77E 0%, #7FB77E 35%);
+  color: white;
+  font-family: "Poppins";
+  font-size: 30px;
+  padding: 20px;
+  padding-inline: 120px;
+  border-radius: 30px;
+  margin: auto;
+  margin-block: 30px;
+  border: none;
+  transition: 1s;
+  cursor: pointer;
+}
+.botones button:hover{
+  background: linear-gradient(30deg, rgb(207, 250, 210) 0%, #7FB77E 35%);
+  cursor: pointer;
+}
+/*Botones donar*/
+
+

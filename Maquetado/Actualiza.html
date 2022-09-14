@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Usuarios</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+  <link rel="stylesheet" href="./css/Actualiza.css">
+  <link href="css/indexCSS.css" rel="stylesheet" >
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
+  <link rel="icon" href="Images/icon.ico">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons"rel="stylesheet">
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+
+</head>
+<body>
+
+
+
+  <header class="header">
+
+    <div class="logo">
+        <a href="index.html"><img src="Images/LogoG.png" alt="Logo Grande"></a>
+        <div class="div-sidevar" id="sidebar">
+          <div class="div-icons">
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-square-facebook"></i></a>
+            <a href="#"><i class="fa-regular fa-envelope"></i></a>
+          </div>
+        </div>
+    </div>
+
+    <nav>
+      <ul class="nav-links">
+        <li><a href="index.html">Inicio</a></li>
+              <li><a href="servicios.html" class="a-active">Donaciones</a></li>
+              <li><a href="perfilUsuarios.html"><span class="material-icons md-18">face</span></a></li>
+      </ul>
+    </nav>
+
+  </header>
+
+</div>
+
+
+
+<div class="card">
+  <div class="banner">
+
+    <div id="mueveme">
+    <svg viewBox="0 0 100 100">
+      
+      <image href="https://cdn-icons-png.flaticon.com/512/2361/2361750.png" height="100" width="100"/>
+
+    </svg>
+  </div>
+  
+  </div>
+  <div class="menu">
+    
+  </div>
+  <h2 class="name">Asociación Hermanos</h2>
+  <div class="title">Comprometidos con ayudar a los mas necesitados</div>
+  <div class="actions">
+    <div class="follow-info">
+      <h2><a href="#"><span>951 505 6938</span><small>Número de teléfono</small></a></h2>
+      <h2><a href="#"><span>Hermanos@hotmail.com</span><small>Correo electrónico</small></a></h2>
+    </div>
+    <div id="map"></div>
+    
+    <div class="title">Cantidad de productos</div>
+
+    <h2 id="cambiame" class="name">10</h2>
+
+    <div class="number-input">
+      <button onclick="this.parentNode.querySelector('input[type=number]').stepDown()" ></button>
+
+      <input  class="quantity" min="0" name="quantity" value="1" type="number">
+      <button onclick="this.parentNode.querySelector('input[type=number]').stepUp()" class="plus"></button>
+    </div>
+
+
+    <br>
+    <div class="follow-btn">
+      <button onclick="actualizar()">Donar</button>
+    </div>
+  </div>
+</div>
+<br><br>
+
+
+    
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/vue/2.6.10/vue.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js'></script>
+<script src="./js/Actualiza.js"></script>
+<script
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB41DRUbKWJHPxaFjMAwdrzWzbVKartNGg&callback=initMap&v=weekly"
+        defer
+      ></script>
+    
+</body>
+<div class="mapouter" "><div class="gmap_canvas"><iframe width="600" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=2880%20Broadway,%20New%20York&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://www.whatismyip-address.com"></a><br><style>.mapouter{position:relative;text-align:right;height:500px;width:600px;}</style><a href="https://www.embedgooglemap.net">embedgooglemap.net</a><style>.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:600px;}</style></div></div>
+<br>
+</html>

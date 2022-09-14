@@ -1,5 +1,98 @@
-body {
-    font-family: "lato", sans-serif;
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500&display=swap");
+
+*{
+    font-family: "Poppins", sans-serif; /*Estilo de font*/
+    margin: 0 auto;
+    box-sizing: border-box;
+    padding: 0;
+    font-size: 20px;
+}  
+body{
+    background-size: 2000px;
+    background-color: #F7F6DC;
+    font-family: "Poppins", regular;
+}
+
+  .header{
+    background: linear-gradient(40deg, #7FB77E 0%, #B1D7B4 60%);
+    height: 65px;
+    width: 100%;
+    overflow: hidden;
+  }
+  .header .logo{
+    margin: 15px;
+    float: left;
+    margin-left: 1%;
+  }
+  .header .nav-links{
+    margin: 10px;
+    margin-top: 6px;
+    float: right;
+    margin-right: 2%;
+    display: flex;
+    align-items: center;
+  }
+  .div-sidevar{
+    background: linear-gradient(30deg, #FFC090 0%, rgba(247, 246, 220, 0.041) 35%);
+    width: 60px;
+    height: 100%;
+    float: left;
+    top: -3000px;
+    left: 0;
+    position: fixed;
+    display: flex;
+    align-items: flex-end;
+    transition: 1.5s;
+  }
+  .header .logo img{
+    height: 35px;
+    width: auto;
+    transition: 1.5s;
+    z-index: 1;
+  }
+  
+  .header .logo img:hover{
+    transform: scale(1.05);
+  }
+  .logo:hover > .div-sidevar{
+    top: 0px;
+  }
+  .header .nav-links{
+    list-style: none;
+  }
+  .header .nav-links li{
+    display: inline-block;
+    margin-top: 15px;
+    
+  }
+  .header .nav-links a{
+    font-size: 15px;
+    color: #fdf4ed;
+    text-decoration: none;
+    font-family: "Poppins", regular; /*Estilo de font*/
+    margin-left: 15px;
+  }
+  .header .nav-links .a-active{
+    color: #567955;
+  }
+  .header .nav-links a:hover{
+    border-bottom: 1px solid #7FB77E;
+  }
+  .div-icons{
+    display: flex;
+    flex-direction:column;
+    align-items:center;
+    margin-bottom: 20px;
+  }
+  .div-sidevar i{
+    margin: 10px;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+  }
+  .material-icons.md-18 { 
+    font-size: 30px; 
+   position: relative;
+   margin-top: 10px; 
   }
   
   .container {
@@ -9,6 +102,7 @@ body {
     padding-left: 10px;
     padding-right: 10px;
     margin-top: 10px;
+    
   }
   
   h2 {
@@ -28,26 +122,13 @@ body {
     margin-bottom: 25px;
   }
   .responsive-table .table-header {
-    background-color: #4285F4;
-    font-size: 14px;
-    text-transform: uppercase;
-    letter-spacing: 0.03em;
+    background-color: #FFC090;
+    display: flex;
+    justify-content: center;
   }
   .responsive-table .table-row {
     background-color: #ffffff;
     box-shadow: 0px 0px 9px 0px rgba(0, 0, 0, 0.1);
-  }
-  .responsive-table .col-1 {
-    flex-basis: 10%;
-  }
-  .responsive-table .col-2 {
-    flex-basis: 40%;
-  }
-  .responsive-table .col-3 {
-    flex-basis: 25%;
-  }
-  .responsive-table .col-4 {
-    flex-basis: 25%;
   }
   @media all and (max-width: 767px) {
     .responsive-table .table-header {
@@ -82,10 +163,26 @@ body {
   
   }
 
+  
+
   .round-image {
-    width: 250px;
-    height: 250px;
-    background-image: url('https://d3iw72m71ie81c.cloudfront.net/female-20.jpeg');
+  margin-top:-70px;
+    background-image: url('https://i0.wp.com/sonria.com/wp-content/uploads/2016/08/2165947w620.jpg?fit=620%2C348&ssl=1');
+    width: 100px;
+    height: 100px;
     background-size: cover;
     display: block;
+    border-radius: 125px;
+    -webkit-border-radius: 125px;
+    -moz-border-radius: 125px;
    }
+
+
+   .container h1{
+
+    margin-left: 150px;
+    margin-top: 50px;
+   }
+
+
+   
